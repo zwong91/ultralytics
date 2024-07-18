@@ -4,6 +4,41 @@
 
 ![计算机视觉解决的基本问题](https://zihao-download.obs.cn-east-3.myhuaweicloud.com/img_bed/20220803/cv_fund.png)
 
+```sh
+yolo detect predict model=yolov8n.pt source=0 show
+
+    TASK     MODE       MODELS           ARGS
+    detect   train      yolov8n.pt        zihao.jpg
+    segment  val        yolov8s.pt        zihao.mp4
+    classify predict    yolov8m.pt        0
+    pose     export     yolov8l.pt        images/
+             track      yolov8x.pt        https://ultralytics.com/images/bus.jpg
+             benchmark  yolov8n-cls.pt    https://youtu.be/Zgi9g1ksQHc
+                        yolov8s-cls.pt    rtsp://example.com/media.mp4
+                        yolov8m-cls.pt
+                        yolov8l-cls.pt
+                        yolov8x-cls.pt
+    
+                        yolov8n-seg.pt
+                        yolov8s-seg.pt
+                        yolov8m-seg.pt
+                        yolov8l-seg.pt
+                        yolov8x-seg.pt
+                        
+                        yolov8n-obb.pt
+                        yolov8s-obb.pt
+                        yolov8m-obb.pt
+                        yolov8l-obb.pt
+                        yolov8x-obb.pt
+
+                        yolov8n-pose.pt
+                        yolov8s-pose.pt
+                        yolov8m-pose.pt
+                        yolov8l-pose.pt
+                        yolov8x-pose.pt
+                        yolov8x-pose-p6.pt
+```
+
 ## 图像分类
 
 ### 构建自己的图像分类数据集
