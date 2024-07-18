@@ -167,3 +167,7 @@ pnnx*
 
 # calibration image
 calibration_*.npy
+Train_Custom_Dataset/Classify/1-构建自己的图像分类数据集/archive/
+Train_Custom_Dataset/Classify/1-构建自己的图像分类数据集/melon17_full/
+Train_Custom_Dataset/Classify/1-构建自己的图像分类数据集/poker_full/
+Train_Custom_Dataset/Classify/1-构建自己的图像分类数据集/poker_split/
