@@ -40,3 +40,5 @@
 * **案例3 : 企鹅种类分类案例**
 
     [案例3-APP测试链接](https://cf-02-projectsp-03-penguin-apppenguin-case-02-dlw9u9.streamlit.app/)
+
+### Streamlit cloud or 直接選擇cloudflare workers ai
