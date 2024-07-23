@@ -96,3 +96,5 @@ CAM热力图系列算法：<https://www.bilibili.com/video/BV1JG4y1s74x>
 ## OCR文字识别
 
 <https://www.bilibili.com/video/BV1Ua411x7dB>
+
+## 多模态数据的处理与融合技术，详细介绍图像、文本、语音等不同模态数据的联合建模方法
